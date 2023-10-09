@@ -53,7 +53,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \":true,\"views\":[]},{\"id\":\"userDataProfiles\",\"themeIcon\":{\"id\":\"de\
   faultProfile-icon\"},\"name\":\"Profiles\",\"isBuiltin\":true,\"views\":[]}]"
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["ignore",true],["plaintext",true],["markdown",true],["typescript",true],["scss",true],["javascript",true],["ruby",true],["jsonc",true],["yaml",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["ignore",true],["plaintext",true],["markdown",true],["typescript",true],["scss",true],["javascript",true],["json",true],["yaml",true],["ruby",true],["jsonc",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: center
