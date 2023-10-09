@@ -1,9 +1,21 @@
 {
-    "editor.minimap.enabled": false,
-    "workbench.statusBar.visible": false,
     "syncSettings.crons": {
         "upload": "0 12 * * *" // at 12PM, every day
     },
+    "workbench.statusBar.visible": false,
+    "workbench.colorTheme": "Default Light Modern",
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Default Light Modern"
+    "editor.minimap.enabled": false,
+    "editor.formatOnPaste": false,
+    "editor.suggestSelection": "first",
+    "editor.rulers": [120],
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.excludeGitIgnore": false,
+    "search.useGlobalIgnoreFiles": false,
+    "search.useIgnoreFiles": false,
+    "files.autoSave": "onFocusChange",
+    "files.eol": "\n"
 }
