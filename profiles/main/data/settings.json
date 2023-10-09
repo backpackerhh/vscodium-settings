@@ -5,5 +5,5 @@
         "upload": "0 12 * * *" // at 12PM, every day
     },
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Red"
+    "workbench.colorTheme": "Default Light Modern"
 }
