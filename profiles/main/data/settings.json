@@ -2,9 +2,7 @@
     "syncSettings.crons": {
         "upload": "0 12 * * *" // at 12PM, every day
     },
-    "workbench.statusBar.visible": false,
     "workbench.colorTheme": "Default Light Modern",
-    "workbench.activityBar.visible": false,
     "editor.minimap.enabled": false,
     "editor.formatOnPaste": false,
     "editor.suggestSelection": "first",
@@ -17,5 +15,7 @@
     "search.useGlobalIgnoreFiles": false,
     "search.useIgnoreFiles": false,
     "files.autoSave": "onFocusChange",
-    "files.eol": "\n"
+    "files.eol": "\n",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.activityBar.visible": false
 }

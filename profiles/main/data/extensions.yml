@@ -1,4 +1,6 @@
 disabled: []
 enabled:
+  - id: castwide.solargraph
+    uuid: 349e83e2-207c-4309-a8d2-dfa43f7ee0c9
   - id: zokugun.cron-tasks
     uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea
