@@ -29,4 +29,25 @@
     "command": "explorer.newFile",
     "when": "explorerViewletFocus"
   },
+  {
+    "key": "alt+e c",
+    "command": "editor.action.codeAction",
+    "args": {
+      "kind": "refactor.extract.constant"
+    }
+  },
+  {
+    "key": "alt+e i",
+    "command": "editor.action.codeAction",
+    "args": {
+      "kind": "refactor.extract.interface"
+    }
+  },
+  {
+    "key": "alt+e m",
+    "command": "editor.action.codeAction",
+    "args": {
+      "kind": "refactor.extract.function"
+    }
+  },
 ]
