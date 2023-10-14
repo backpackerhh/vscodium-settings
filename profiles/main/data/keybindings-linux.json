@@ -50,4 +50,12 @@
       "kind": "refactor.extract.function"
     }
   },
+  {
+    "key": "ctrl+shift+k u",
+    "command": "editor.action.transformToUppercase"
+  },
+  {
+    "key": "ctrl+shift+k l",
+    "command": "editor.action.transformToLowercase"
+  },
 ]

@@ -38,4 +38,6 @@
     "editor.codeActionsOnSave": {
         "source.addMissingImports": true,
     },
+    "tabnine.experimentalAutoImports": true,
+    "workbench.activityBar.visible": false,
 }
