@@ -45,6 +45,5 @@
     "vscodeWorkspaceSwitcher.showInExplorer": true,
     "vscodeWorkspaceSwitcher.showTreeView": false,
     "workbench.statusBar.visible": false,
-    "workbench.activityBar.visible": false,
     "workbench.startupEditor": "none",
 }
