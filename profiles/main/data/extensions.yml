@@ -1,4 +1,6 @@
 disabled:
+  - id: castwide.solargraph
+    uuid: 349e83e2-207c-4309-a8d2-dfa43f7ee0c9
   - id: dbaeumer.vscode-eslint
     uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
   - id: Orta.vscode-jest
@@ -6,14 +8,14 @@ disabled:
 enabled:
   - id: carlocardella.vscode-texttoolbox
     uuid: e79b1e54-8f4b-4cb6-867d-1f8d4230c84c
-  - id: castwide.solargraph
-    uuid: 349e83e2-207c-4309-a8d2-dfa43f7ee0c9
   - id: foxundermoon.shell-format
     uuid: 5fb19573-2183-4cf2-b53d-0fb869dae7ae
   - id: mads-hartmann.bash-ide-vscode
     uuid: b1b0f283-8246-4e90-832e-a6c409d378d1
   - id: ms-azuretools.vscode-docker
     uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
+  - id: sadesyllas.vscode-workspace-switcher
+    uuid: d64b9a43-2c4d-4add-a4b0-1109edbfc838
   - id: timonwong.shellcheck
     uuid: f95d8fff-f70a-4ae5-bb06-5c47ddbc8fc6
   - id: zokugun.cron-tasks
