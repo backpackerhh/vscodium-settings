@@ -48,5 +48,22 @@
     "[dockerfile]": {
         "editor.defaultFormatter": "ms-azuretools.vscode-docker"
     },
+    "gitlens.currentLine.enabled": true,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.hovers.annotations.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.scopes": [
+        "document",
+        "containers"
+    ],
+    "gitlens.statusBar.enabled": false,
+    "gitlens.blame.highlight.locations": [
+        "gutter",
+        "line",
+        "overview"
+    ],
+    "gitlens.mode.statusBar.enabled": true,
+    "gitlens.mode.active": "zen",
     "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": false,
 }

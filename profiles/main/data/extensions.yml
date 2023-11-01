@@ -8,6 +8,8 @@ disabled:
 enabled:
   - id: carlocardella.vscode-texttoolbox
     uuid: e79b1e54-8f4b-4cb6-867d-1f8d4230c84c
+  - id: eamodio.gitlens
+    uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
   - id: foxundermoon.shell-format
     uuid: 5fb19573-2183-4cf2-b53d-0fb869dae7ae
   - id: mads-hartmann.bash-ide-vscode
@@ -18,5 +20,7 @@ enabled:
     uuid: d64b9a43-2c4d-4add-a4b0-1109edbfc838
   - id: timonwong.shellcheck
     uuid: f95d8fff-f70a-4ae5-bb06-5c47ddbc8fc6
+  - id: yzhang.markdown-all-in-one
+    uuid: 98790d67-10fa-497c-9113-f6c7489207b2
   - id: zokugun.cron-tasks
     uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea
