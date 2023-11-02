@@ -18,6 +18,8 @@ enabled:
     uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
   - id: sadesyllas.vscode-workspace-switcher
     uuid: d64b9a43-2c4d-4add-a4b0-1109edbfc838
+  - id: Shopify.ruby-lsp
+    uuid: ef656a13-3703-477b-9f36-672a0c949b96
   - id: timonwong.shellcheck
     uuid: f95d8fff-f70a-4ae5-bb06-5c47ddbc8fc6
   - id: yzhang.markdown-all-in-one
