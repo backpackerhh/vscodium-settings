@@ -3,6 +3,8 @@ disabled:
     uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
   - id: Orta.vscode-jest
     uuid: 7997a8ae-1fae-4022-b834-12f6318aeffd
+  - id: Shopify.ruby-lsp
+    uuid: ef656a13-3703-477b-9f36-672a0c949b96
 enabled:
   - id: carlocardella.vscode-texttoolbox
     uuid: e79b1e54-8f4b-4cb6-867d-1f8d4230c84c
@@ -18,8 +20,6 @@ enabled:
     uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
   - id: sadesyllas.vscode-workspace-switcher
     uuid: d64b9a43-2c4d-4add-a4b0-1109edbfc838
-  - id: Shopify.ruby-lsp
-    uuid: ef656a13-3703-477b-9f36-672a0c949b96
   - id: timonwong.shellcheck
     uuid: f95d8fff-f70a-4ae5-bb06-5c47ddbc8fc6
   - id: yzhang.markdown-all-in-one

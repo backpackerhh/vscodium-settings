@@ -72,7 +72,6 @@
     "gitlens.telemetry.enabled": false,
     "rubyLsp.rubyVersionManager": "rvm",
     "rubyLsp.formatter": "auto",
-    "rubyLsp.enableExperimentalFeatures": false,
     "workbench.activityBar.location": "hidden",
     "workbench.statusBar.visible": false,
 }
