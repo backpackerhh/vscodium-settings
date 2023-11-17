@@ -93,15 +93,15 @@
     "[ruby]": {
         "editor.defaultFormatter": "Shopify.ruby-lsp",
         "editor.formatOnSave": false,
+        "editor.formatOnType": false,
         "editor.tabSize": 2,
         "editor.insertSpaces": true,
         "editor.semanticHighlighting.enabled": true,
-        "editor.formatOnType": false,
     },
     "rubyLsp.rubyVersionManager": "rvm",
     "rubyLsp.formatter": "rubocop",
-    "rubyLsp.enableExperimentalFeatures": false,
-    "rubyLsp.bundleGemfile": "/home/david/Documents/Projects/ruby-lsp/Gemfile",
+    "rubyLsp.enableExperimentalFeatures": true,
+    "rubyLsp.bundleGemfile": "/media/david/Documents/Projects/ruby-lsp/Gemfile",
     "rubyLsp.enabledFeatures": {
         "codeActions": true,
         "diagnostics": true,
@@ -121,6 +121,6 @@
         "workspaceSymbol": true,
         "references": true
     },
-    "workbench.statusBar.visible": false,
+    "rubyLsp.yjit": true,
     "workbench.activityBar.location": "hidden",
 }
