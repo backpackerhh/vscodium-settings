@@ -122,5 +122,6 @@
         "references": true
     },
     "rubyLsp.yjit": true,
+    "workbench.activityBar.location": "hidden",
     "workbench.statusBar.visible": false,
 }
