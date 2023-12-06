@@ -16,5 +16,10 @@
 		"prefix": "fst",
 		"body": "# frozen_string_literal: true",
 		"description": "Enable frozen string literals"
+	},
+	"Debugger": {
+		"prefix": "debug",
+		"body": "require \"debug\"; debugger",
+		"description": "Enable debugger"
 	}
 }
