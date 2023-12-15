@@ -91,7 +91,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   e,\"views\":[]}]"
 workbench.auxiliaryBar.size: "256"
 workbench.editor.languageDetectionOpenedLanguages.global: '[["log",true],["csv
-  (semicolon)",true],["makefile",true],["snippets",true],["json",true],["plaintext",true],["dockercompose",true],["csv",true],["sql",true],["yaml",true],["markdown",true],["ruby",true]]'
+  (semicolon)",true],["snippets",true],["json",true],["plaintext",true],["dockercompose",true],["csv",true],["makefile",true],["yaml",true],["sql",true],["markdown",true],["ruby",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"vscodeWorkspaceSwitcherViewInExplorer","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: center
