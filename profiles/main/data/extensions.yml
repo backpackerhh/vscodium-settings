@@ -8,6 +8,8 @@ enabled:
     uuid: e79b1e54-8f4b-4cb6-867d-1f8d4230c84c
   - id: eamodio.gitlens
     uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
+  - id: esbenp.prettier-vscode
+    uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: foxundermoon.shell-format
     uuid: 5fb19573-2183-4cf2-b53d-0fb869dae7ae
   - id: mads-hartmann.bash-ide-vscode

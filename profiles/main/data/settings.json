@@ -122,5 +122,11 @@
     },
     "rubyLsp.yjit": true,
     "workbench.activityBar.location": "hidden",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "workbench.statusBar.visible": false,
 }
