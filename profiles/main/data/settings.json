@@ -128,4 +128,5 @@
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "typescript.updateImportsOnFileMove.enabled": "always",
 }
