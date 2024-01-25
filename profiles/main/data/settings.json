@@ -129,4 +129,5 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.statusBar.visible": false,
 }
