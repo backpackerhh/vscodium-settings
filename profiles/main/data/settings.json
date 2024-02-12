@@ -122,6 +122,5 @@
   "workbench.activityBar.location": "hidden",
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.statusBar.visible": false
+  }
 }
