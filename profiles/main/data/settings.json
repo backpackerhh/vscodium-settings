@@ -126,5 +126,6 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.statusBar.visible": false
+  "workbench.statusBar.visible": false,
+  "redhat.telemetry.enabled": false
 }

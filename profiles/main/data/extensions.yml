@@ -4,6 +4,8 @@ disabled:
   - id: Orta.vscode-jest
     uuid: 7997a8ae-1fae-4022-b834-12f6318aeffd
 enabled:
+  - id: 42Crunch.vscode-openapi
+    uuid: 75dba0f9-d5c5-4902-99c4-cd3d60ec7147
   - id: carlocardella.vscode-texttoolbox
     uuid: e79b1e54-8f4b-4cb6-867d-1f8d4230c84c
   - id: eamodio.gitlens
@@ -18,6 +20,8 @@ enabled:
     uuid: 3792588c-3d35-442d-91ea-fe6a755e8155
   - id: ms-azuretools.vscode-docker
     uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
+  - id: redhat.vscode-yaml
+    uuid: 2061917f-f76a-458a-8da9-f162de22b97e
   - id: sadesyllas.vscode-workspace-switcher
     uuid: d64b9a43-2c4d-4add-a4b0-1109edbfc838
   - id: Shopify.ruby-lsp
