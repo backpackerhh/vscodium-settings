@@ -82,7 +82,7 @@
   "gitlens.telemetry.enabled": false,
   "[ruby]": {
     "editor.defaultFormatter": "Shopify.ruby-lsp",
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "editor.formatOnType": false,
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
@@ -99,7 +99,7 @@
     "documentLink": true,
     "documentSymbols": true,
     "foldingRanges": true,
-    "formatting": false,
+    "formatting": true,
     "hover": true,
     "inlayHint": true,
     "onTypeFormatting": false,
@@ -112,20 +112,22 @@
     "references": true
   },
   "rubyLsp.yjit": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.activityBar.location": "hidden",
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.statusBar.visible": false,
-  "redhat.telemetry.enabled": false
+  "redhat.telemetry.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  }
 }
