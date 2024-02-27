@@ -32,9 +32,9 @@
   "breadcrumbs.symbolPath": "off",
   "editor.acceptSuggestionOnEnter": "on",
   "editor.acceptSuggestionOnCommitCharacter": true,
-  "editor.lightbulb.enabled": false,
+  "editor.lightbulb.enabled": "off",
   "editor.codeActionsOnSave": {
-    "source.addMissingImports": true
+    "source.addMissingImports": "explicit"
   },
   "vscodeWorkspaceSwitcher.paths": [
     "~/Documents/Projects/00-codium-workspaces"
