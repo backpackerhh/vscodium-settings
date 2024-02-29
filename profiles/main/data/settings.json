@@ -129,5 +129,6 @@
   "workbench.activityBar.location": "hidden",
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
-  }
+  },
+  "workbench.statusBar.visible": false
 }
