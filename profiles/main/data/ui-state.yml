@@ -102,7 +102,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   on\":{\"id\":\"defaultProfile-icon\"},\"name\":\"Profiles\",\"isBuiltin\":tru\
   e,\"views\":[]}]"
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["dockercompose",true],["shellscript",true],["jsonc",true],["javascript",true],["typescript",true],["php",true],["json",true],["makefile",true],["yaml",true],["markdown",true],["plaintext",true],["ruby",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["dockercompose",true],["shellscript",true],["jsonc",true],["javascript",true],["typescript",true],["php",true],["json",true],["makefile",true],["markdown",true],["plaintext",true],["yaml",true],["ruby",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"vscodeWorkspaceSwitcherViewInExplorer","isHidden":false},{"id":"dependencies","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: center
