@@ -14,6 +14,8 @@ enabled:
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: foxundermoon.shell-format
     uuid: 5fb19573-2183-4cf2-b53d-0fb869dae7ae
+  - id: KoichiSasada.vscode-rdbg
+    uuid: 24c6dcf1-6c66-4c4e-be43-d48d0d9c5a41
   - id: mads-hartmann.bash-ide-vscode
     uuid: b1b0f283-8246-4e90-832e-a6c409d378d1
   - id: mechatroner.rainbow-csv
