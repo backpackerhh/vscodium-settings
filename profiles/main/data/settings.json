@@ -90,7 +90,7 @@
   },
   "rubyLsp.rubyVersionManager": "rvm",
   "rubyLsp.formatter": "rubocop",
-  "rubyLsp.enableExperimentalFeatures": true,
+  "rubyLsp.enableExperimentalFeatures": false,
   "rubyLsp.bundleGemfile": "/media/david/Documents/Projects/ruby-lsp/Gemfile",
   "rubyLsp.enabledFeatures": {
     "codeActions": true,
@@ -111,7 +111,6 @@
     "workspaceSymbol": true,
     "references": true
   },
-  "rubyLsp.yjit": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -132,6 +131,9 @@
   },
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.statusBar.visible": false
 }
