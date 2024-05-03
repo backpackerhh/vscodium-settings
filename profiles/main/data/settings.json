@@ -88,7 +88,9 @@
     "editor.insertSpaces": true,
     "editor.semanticHighlighting.enabled": true
   },
-  "rubyLsp.rubyVersionManager": "rvm",
+  "rubyLsp.rubyVersionManager": {
+    "identifier": "rvm"
+  },
   "rubyLsp.formatter": "rubocop",
   "rubyLsp.enableExperimentalFeatures": false,
   "rubyLsp.bundleGemfile": "/media/david/Documents/Projects/ruby-lsp/Gemfile",
