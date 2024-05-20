@@ -30,6 +30,8 @@ enabled:
     uuid: ef656a13-3703-477b-9f36-672a0c949b96
   - id: timonwong.shellcheck
     uuid: f95d8fff-f70a-4ae5-bb06-5c47ddbc8fc6
+  - id: wmaurer.change-case
+    uuid: 2aa040bf-c73a-455d-8946-5c6cc83b8019
   - id: yzhang.markdown-all-in-one
     uuid: 98790d67-10fa-497c-9113-f6c7489207b2
   - id: zokugun.cron-tasks
