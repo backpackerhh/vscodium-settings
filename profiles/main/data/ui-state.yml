@@ -1,4 +1,4 @@
-42Crunch.vscode-openapi: '{"openapiVersion":"4.26.3"}'
+42Crunch.vscode-openapi: '{"openapiVersion":"4.27.0"}'
 ms-azuretools.vscode-docker: '{"isRegistryMigrated":true,"vscode-docker.container.newContainerUser":false,"vscode-docker.images.showDanglingImages":true}'
 Orta.vscode-jest: '{"orta.vscode-jest-5.2.3-launch":true}'
 Shopify.ruby-lsp: '{"rubyLsp.lastConfigurationTelemetry":1719567121426}'
@@ -104,7 +104,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   e,\"views\":[]}]"
 workbench.activityBar.location: top
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["ignore",true],["erb",true],["makefile",true],["javascriptreact",true],["json",true],["javascript",true],["yaml",true],["python",true],["html",true],["plaintext",true],["markdown",true],["ruby",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["ignore",true],["erb",true],["makefile",true],["javascriptreact",true],["json",true],["javascript",true],["yaml",true],["python",true],["html",true],["markdown",true],["ruby",true],["plaintext",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"vscodeWorkspaceSwitcherViewInExplorer","isHidden":false},{"id":"dependencies","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: center
