@@ -1,7 +1,7 @@
 42Crunch.vscode-openapi: '{"openapiVersion":"4.27.0"}'
 ms-azuretools.vscode-docker: '{"isRegistryMigrated":true,"vscode-docker.container.newContainerUser":false,"vscode-docker.images.showDanglingImages":true}'
 Orta.vscode-jest: '{"orta.vscode-jest-5.2.3-launch":true}'
-Shopify.ruby-lsp: '{"rubyLsp.lastConfigurationTelemetry":1719567121426}'
+Shopify.ruby-lsp: '{"rubyLsp.lastConfigurationTelemetry":1720867036803}'
 workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":true,"order":0},{"id":"workbench.view.search","pinned":true,"visible":true,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":true,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":true,"order":3},{"id":"workbench.view.extensions","pinned":true,"visible":true,"order":4},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.openapi-explorer","pinned":true,"order":8},{"id":"workbench.view.extension.42crunch-platform","pinned":true,"order":9},{"id":"workbench.view.extension.gitlensPatch","pinned":true,"order":12},{"id":"workbench.view.extension.dockerView","pinned":true,"visible":true,"order":13},{"id":"workbench.view.extension.vscodeWorkspaceSwitcherViewContainer","pinned":true,"visible":false,"order":14},{"id":"workbench.view.extension.tabnine","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.gitlens","pinned":false,"visible":true,"order":10},{"id":"workbench.view.extension.gitlensInspect","pinned":false,"visible":true,"order":11},{"id":"workbench.panel.chatSidebar","pinned":true,"visible":false,"order":100},{"id":"userDataProfiles","pinned":true,"visible":true}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBuilt\
@@ -104,7 +104,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   e,\"views\":[]}]"
 workbench.activityBar.location: top
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["ignore",true],["erb",true],["makefile",true],["javascriptreact",true],["json",true],["javascript",true],["yaml",true],["python",true],["html",true],["markdown",true],["ruby",true],["plaintext",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["erb",true],["makefile",true],["javascriptreact",true],["json",true],["javascript",true],["python",true],["html",true],["shellscript",true],["yaml",true],["ruby",true],["plaintext",true],["markdown",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"vscodeWorkspaceSwitcherViewInExplorer","isHidden":false},{"id":"dependencies","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: center
