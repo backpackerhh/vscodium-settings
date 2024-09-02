@@ -1,4 +1,4 @@
-42Crunch.vscode-openapi: '{"openapiVersion":"4.27.0"}'
+42Crunch.vscode-openapi: '{"openapiVersion":"4.28.1"}'
 ms-azuretools.vscode-docker: '{"isRegistryMigrated":true,"vscode-docker.container.newContainerUser":false,"vscode-docker.images.showDanglingImages":true}'
 Orta.vscode-jest: '{"orta.vscode-jest-5.2.3-launch":true}'
 Shopify.ruby-lsp: '{"rubyLsp.lastConfigurationTelemetry":1720867036803}'
@@ -62,13 +62,13 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   ension.references-view\",\"themeIcon\":{\"id\":\"references\"},\"name\":\"Ref\
   erences\",\"isBuiltin\":false,\"views\":[{\"when\":\"reference-list.isActive\
   \"}]},{\"id\":\"workbench.view.extension.openapi-explorer\",\"iconUrl\":{\"$m\
-  id\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/42crunch.vscode-openapi-4.25.3-univ\
+  id\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/42crunch.vscode-openapi-4.28.1-univ\
   ersal/resources/icons/icon_api.svg\",\"scheme\":\"file\"},\"name\":\"OpenAPI\
   \",\"isBuiltin\":false,\"views\":[{\"when\":\"openapiThreeEnabled ||
   openapiTwoEnabled\"},{\"when\":\"!openapiThreeEnabled &&
   !openapiTwoEnabled\"}]},{\"id\":\"workbench.view.extension.42crunch-platform\
   \",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/42crunch.vscode\
-  -openapi-4.25.3-universal/resources/icon_42crunch_platform.svg\",\"scheme\":\
+  -openapi-4.28.1-universal/resources/icon_42crunch_platform.svg\",\"scheme\":\
   \"file\"},\"name\":\"42Crunch\",\"isBuiltin\":false,\"views\":[{\"when\":\"op\
   enapi.platform.credentials ==
   'present'\"}]},{\"id\":\"workbench.view.extension.gitlensPatch\",\"themeIcon\
@@ -77,7 +77,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   s.enabled && gitlens:views:patchDetails:mode &&
   !gitlens:untrusted\"}]},{\"id\":\"workbench.view.extension.dockerView\",\"ico\
   nUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/ms-azuretools.vscode-do\
-  cker-1.29.0-universal/resources/docker.svg\",\"scheme\":\"file\"},\"name\":\"\
+  cker-1.29.1-universal/resources/docker.svg\",\"scheme\":\"file\"},\"name\":\"\
   Docker\",\"isBuiltin\":false,\"views\":[{},{},{},{},{},{},{}]},{\"id\":\"work\
   bench.view.extension.vscodeWorkspaceSwitcherViewContainer\",\"iconUrl\":{\"$m\
   id\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/sadesyllas.vscode-workspace-switche\
@@ -88,13 +88,15 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   vscodeWorkspaceSwitcherViewInActivityBarShow\"}]},{\"id\":\"workbench.view.ex\
   tension.tabnine\",\"isBuiltin\":false},{\"id\":\"workbench.view.extension.git\
   lens\",\"themeIcon\":{\"id\":\"gitlens-gitlens\"},\"name\":\"GitLens\",\"isBu\
-  iltin\":false,\"views\":[{},{\"when\":\"config.gitlens.cloudPatches.enabled &&
+  iltin\":false,\"views\":[{},{\"when\":\"config.gitlens.views.launchpad.enabled\
+  \"},{\"when\":\"config.gitlens.cloudPatches.enabled &&
   gitlens:gk:organization:drafts:enabled && !gitlens:hasVirtualFolders &&
   !gitlens:untrusted\"},{\"when\":\"!gitlens:hasVirtualFolders &&
   !gitlens:untrusted\"},{}]},{\"id\":\"workbench.view.extension.gitlensInspect\
   \",\"themeIcon\":{\"id\":\"gitlens-gitlens-inspect\"},\"name\":\"GitLens
   Inspect\",\"isBuiltin\":false,\"views\":[{\"when\":\"!gitlens:disabled\"},{\"\
-  when\":\"!gitlens:disabled &&
+  when\":\"gitlens:views:pullRequest:visible &&
+  !gitlens:disabled\"},{\"when\":\"!gitlens:disabled &&
   !gitlens:hasVirtualFolders\"},{\"when\":\"!gitlens:disabled\"},{\"when\":\"gi\
   tlens:plus:enabled &&
   !gitlens:disabled\"},{\"when\":\"!gitlens:disabled\"}]},{\"id\":\"workbench.p\
@@ -102,9 +104,9 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   hat\",\"isBuiltin\":true,\"views\":[]},{\"id\":\"userDataProfiles\",\"themeIc\
   on\":{\"id\":\"defaultProfile-icon\"},\"name\":\"Profiles\",\"isBuiltin\":tru\
   e,\"views\":[]}]"
-workbench.activityBar.location: top
+workbench.activityBar.location: default
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["erb",true],["makefile",true],["javascriptreact",true],["json",true],["javascript",true],["python",true],["html",true],["shellscript",true],["yaml",true],["ruby",true],["plaintext",true],["markdown",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["makefile",true],["javascriptreact",true],["json",true],["javascript",true],["python",true],["html",true],["shellscript",true],["yaml",true],["ruby",true],["plaintext",true],["markdown",true],["jsonc",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"vscodeWorkspaceSwitcherViewInExplorer","isHidden":false},{"id":"dependencies","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: center
@@ -127,7 +129,7 @@ workbench.sideBar.size: "271"
 workbench.statusbar.hidden: '["eamodio.gitlens.gitlens.plus.subscription","Shopify.ruby-lsp/server"]'
 workbench.view.debug.state.hidden: '[{"id":"workbench.debug.welcome","isHidden":false},{"id":"workbench.debug.variablesView","isHidden":false},{"id":"workbench.debug.watchExpressionsView","isHidden":false},{"id":"workbench.debug.callStackView","isHidden":false},{"id":"workbench.debug.loadedScriptsView","isHidden":false},{"id":"workbench.debug.breakPointsView","isHidden":false},{"id":"jsBrowserBreakpoints","isHidden":false},{"id":"jsExcludedCallers","isHidden":false},{"id":"rdbg.inspector","isHidden":false}]'
 workbench.view.extension.dockerView.state.hidden: '[{"id":"dockerContainers","isHidden":false,"order":0},{"id":"dockerImages","isHidden":false,"order":1},{"id":"dockerRegistries","isHidden":false,"order":3},{"id":"dockerNetworks","isHidden":false,"order":4},{"id":"dockerVolumes","isHidden":false,"order":2},{"id":"vscode-docker.views.dockerContexts","isHidden":false,"order":5},{"id":"vscode-docker.views.help","isHidden":false,"order":6}]'
-workbench.view.extension.gitlens.state.hidden: '[{"id":"gitlens.views.home","isHidden":false},{"id":"gitlens.views.workspaces","isHidden":false},{"id":"gitlens.views.account","isHidden":false},{"id":"gitlens.views.drafts","isHidden":false}]'
+workbench.view.extension.gitlens.state.hidden: '[{"id":"gitlens.views.home","isHidden":false},{"id":"gitlens.views.workspaces","isHidden":false},{"id":"gitlens.views.account","isHidden":false},{"id":"gitlens.views.drafts","isHidden":false},{"id":"gitlens.views.launchpad","isHidden":false}]'
 workbench.view.extension.gitlensInspect.state.hidden: '[{"id":"gitlens.views.commitDetails","isHidden":false},{"id":"gitlens.views.lineHistory","isHidden":false},{"id":"gitlens.views.fileHistory","isHidden":false},{"id":"gitlens.views.timeline","isHidden":false},{"id":"gitlens.views.searchAndCompare","isHidden":false},{"id":"gitlens.views.pullRequest","isHidden":false}]'
 workbench.view.extension.gitlensPanel.state.hidden: '[{"id":"gitlens.views.graph","isHidden":false},{"id":"gitlens.views.graphDetails","isHidden":false}]'
 workbench.view.extension.openapi-explorer.state.hidden: '[{"id":"openapiOutline","isHidden":false},{"id":"openapiNotSelectedOutline","isHidden":false}]'
