@@ -12,6 +12,10 @@
     "command": "workbench.view.extension.dockerView"
   },
   {
+    "key": "ctrl+shift+a",
+    "command": "workbench.view.extension.openapi-explorer"
+  },
+  {
     "key": "meta+[Backquote]",
     "command": "workbench.action.focusSideBar"
   },
@@ -94,7 +98,7 @@
   },
   {
     "key": "alt+t u",
-    "command": "editor.action.transformtouppercase",
+    "command": "editor.action.transformToUppercase",
     "when": "editorTextFocus && !editorReadonly"
   },
   {
@@ -103,13 +107,33 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+k ctrl+`",
-    "command": "workbench.action.createTerminalEditorSide"
+    "key": "alt+t c",
+    "command": "editor.action.transformToCamelcase",
+    "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+a",
-    "command": "workbench.action.terminal.selectAll",
-    "when": "terminalFocus && !isMac"
+    "key": "alt+t k",
+    "command": "editor.action.transformToKebabcase",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+t p",
+    "command": "editor.action.transformToPascalcase",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+t s",
+    "command": "editor.action.transformToSnakecase",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+t t",
+    "command": "editor.action.transformToTitlecase",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+k ctrl+`",
+    "command": "workbench.action.createTerminalEditorSide"
   },
   {
     "key": "ctrl+shift+up",
@@ -122,10 +146,50 @@
     "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
   },
   {
-    "key": "ctrl+meta+r",
+    "key": "ctrl+shift+0",
     "command": "workbench.action.evenEditorWidths",
     "when": "editorFocus"
   },
+  {
+    "key": "ctrl+shift+up",
+    "command": "workbench.action.increaseViewSize",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "workbench.action.decreaseViewSize",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+meta+up",
+    "command": "workbench.action.terminal.selectToPreviousCommand",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+meta+down",
+    "command": "workbench.action.terminal.selectToNextCommand",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpen",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+[BracketRight]",
+    "command": "editor.action.blockComment",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+numpad_multiply",
+    "command": "editor.action.blockComment",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+numpad_divide",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  }
 
   // Negative
   { "key": "ctrl+0", "command": "-workbench.action.focusSideBar" },
@@ -183,5 +247,33 @@
     "key": "ctrl+shift+up",
     "command": "-workbench.action.terminal.scrollUp",
     "when": "terminalFocusInAny && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocusInAny && terminalProcessSupported && !terminalAltBufferActive"
+  },
+  {
+    "key": "ctrl+shift+0",
+    "command": "-workbench.action.zoomIn"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+k ctrl+i",
+    "command": "-workbench.action.terminal.focusHover",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalIsOpen || terminalFocus && terminalProcessSupported || terminalHasBeenCreated && terminalTabsFocus || terminalIsOpen && terminalTabsFocus || terminalProcessSupported && terminalTabsFocus"
+  },
+  {
+    "key": "shift+escape",
+    "command": "-workbench.action.terminal.hideFind",
+    "when": "terminalFindVisible && terminalFocusInAny && terminalHasBeenCreated || terminalFindVisible && terminalFocusInAny && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+shift+g g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+  },
+  {
+    "key": "ctrl+shift+a",
+    "command": "-editor.action.blockComment",
+    "when": "editorTextFocus && !editorReadonly"
   }
 ]
