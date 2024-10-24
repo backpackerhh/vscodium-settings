@@ -9,6 +9,7 @@
   "editor.suggestSelection": "first",
   "editor.rulers": [100, 120],
   "editor.tabSize": 2,
+  "editor.fontSize": 14,
   "editor.tabCompletion": "onlySnippets",
   "editor.wordWrap": "on",
   "editor.cursorSmoothCaretAnimation": "on",

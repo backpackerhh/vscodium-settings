@@ -189,7 +189,7 @@
     "key": "ctrl+numpad_divide",
     "command": "editor.action.commentLine",
     "when": "editorTextFocus && !editorReadonly"
-  }
+  },
 
   // Negative
   { "key": "ctrl+0", "command": "-workbench.action.focusSideBar" },
