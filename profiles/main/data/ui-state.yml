@@ -108,7 +108,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   rofiles\",\"isBuiltin\":false}]"
 workbench.activityBar.location: default
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["html",true],["shellscript",true],["snippets",true],["javascript",true],["makefile",true],["search-result",true],["scss",true],["jsonc",true],["plaintext",true],["yaml",true],["ruby",true],["markdown",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["html",true],["shellscript",true],["snippets",true],["javascript",true],["makefile",true],["search-result",true],["scss",true],["jsonc",true],["plaintext",true],["ruby",true],["markdown",true],["yaml",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"vscodeWorkspaceSwitcherViewInExplorer","isHidden":false},{"id":"dependencies","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: center
