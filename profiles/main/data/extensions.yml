@@ -20,6 +20,8 @@ enabled:
     uuid: b1b0f283-8246-4e90-832e-a6c409d378d1
   - id: mechatroner.rainbow-csv
     uuid: 3792588c-3d35-442d-91ea-fe6a755e8155
+  - id: ms-azuretools.vscode-containers
+    uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
   - id: ms-azuretools.vscode-docker
     uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
   - id: Orta.vscode-jest
