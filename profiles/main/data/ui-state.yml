@@ -153,7 +153,7 @@ workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeI
   !config.chat.disableAIFeatures"}]},{"id":"workbench.panel.chatEditing","name":"Copilot
   Edits","isBuiltin":false}]'
 workbench.auxiliaryBar.size: "300"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["properties",true],["csv",true],["ruby",true],["css",true],["typescript",true],["javascript",true],["jsonc",true],["json",true],["astro",true],["html",true],["plaintext",true],["markdown",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["properties",true],["csv",true],["ruby",true],["css",true],["typescript",true],["javascript",true],["jsonc",true],["json",true],["astro",true],["plaintext",true],["html",true],["markdown",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"vscodeWorkspaceSwitcherViewInExplorer","isHidden":false},{"id":"dependencies","isHidden":false},{"id":"workbench.explorer.emptyView","isHidden":false}]'
 workbench.panel.alignment: center
 workbench.panel.chat.hidden: '[{"id":"workbench.panel.chat.view.copilot","isHidden":false}]'
