@@ -1,4 +1,4 @@
-42Crunch.vscode-openapi: '{"openapiVersion":"5.8.0"}'
+42Crunch.vscode-openapi: '{"openapiVersion":"5.9.0"}'
 workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.openapi-explorer","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.42crunch-launchpad","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.42crunch-platform","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.42crunch-collections","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.gitlens","pinned":true,"visible":false,"order":11},{"id":"workbench.view.extension.gitlensInspect","pinned":true,"visible":false,"order":12},{"id":"workbench.view.extension.gitlensPatch","pinned":true,"visible":false,"order":13},{"id":"workbench.view.extension.dockerView","pinned":true,"visible":false,"order":13},{"id":"workbench.view.extension.vscodeWorkspaceSwitcherViewContainer","pinned":true,"visible":false,"order":15},{"id":"workbench.view.extension.containersView","pinned":true,"visible":false,"order":14}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBuilt\
@@ -76,26 +76,27 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   ension.references-view\",\"themeIcon\":{\"id\":\"references\"},\"name\":\"Ref\
   erences\",\"isBuiltin\":false,\"views\":[{\"when\":\"reference-list.isActive\
   \"}]},{\"id\":\"workbench.view.extension.openapi-explorer\",\"iconUrl\":{\"$m\
-  id\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/42crunch.vscode-openapi-5.8.0-unive\
+  id\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/42crunch.vscode-openapi-5.9.0-unive\
   rsal/resources/icons/icon_api.svg\",\"scheme\":\"file\"},\"name\":\"OpenAPI\",\
   \"isBuiltin\":false,\"views\":[{\"when\":\"openapiThreeEnabled ||
   openapiTwoEnabled\"},{\"when\":\"!openapiThreeEnabled &&
   !openapiTwoEnabled\"}]},{\"id\":\"workbench.view.extension.42crunch-launchpad\
   \",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/42crunch.vscode\
-  -openapi-5.8.0-universal/resources/icon_42crunch_platform_outline.svg\",\"sch\
+  -openapi-5.9.0-universal/resources/icon_42crunch_platform_outline.svg\",\"sch\
   eme\":\"file\"},\"name\":\"42Crunch\",\"isBuiltin\":false,\"views\":[{}]},{\"\
   id\":\"workbench.view.extension.42crunch-platform\",\"name\":\"42Crunch\",\"i\
   sBuiltin\":false},{\"id\":\"workbench.view.extension.42crunch-collections\",\
   \"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/42crunch.vscode-op\
-  enapi-5.8.0-universal/resources/icon_42crunch_collections_outline.svg\",\"sch\
+  enapi-5.9.0-universal/resources/icon_42crunch_collections_outline.svg\",\"sch\
   eme\":\"file\"},\"name\":\"Collections and Data
   dictionary\",\"isBuiltin\":false,\"views\":[{\"when\":\"openapi.platform.cred\
   entials ==
   'present'\"}]},{\"id\":\"workbench.view.extension.gitlens\",\"themeIcon\":{\"\
   id\":\"gitlens-gitlens\"},\"name\":\"GitLens\",\"isBuiltin\":false,\"views\":\
   [{\"when\":\"!gitlens:plus:disabled || gitlens:plus:disabled:view:overrides =~
-  /(?:^|\\\\|)gitlens\\\\.views\\\\.graph(?:\\\\||$)/\"},{},{},{\"when\":\"!con\
-  fig.gitlens.views.scm.grouped.views.launchpad &&
+  /(?:^|\\\\|)gitlens\\\\.views\\\\.graph(?:\\\\||$)/\"},{\"when\":\"!gitlens:w\
+  elcome:inEditor\"},{\"when\":\"!config.gitlens.views.scm.grouped.views.launch\
+  pad &&
   !gitlens:views:scm:grouped:views:launchpad\"},{\"when\":\"config.gitlens.clou\
   dPatches.enabled && gitlens:gk:organization:drafts:enabled &&
   !gitlens:hasVirtualFolders &&
